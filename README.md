@@ -82,6 +82,8 @@ raylib-beef provides binaries that have been compiled with the `RAYLIB_OPENGL_43
 
 Note that OpenGL 4.3 support is currently only available for Win64 and only supports dynamic linking.
 
+**Note:** You may need to delete the `dist` directory of your project and rebuild it to ensure the new binaries are used.
+
 ## More Links
 * Raylib Repo (https://github.com/raysan5/raylib)
 * BeefLang (https://www.beeflang.org)
