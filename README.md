@@ -78,7 +78,7 @@ WARNING: SSBO: SSBO not enabled. Define GRAPHICS_API_OPENGL_43
 
 raylib-beef provides binaries that have been compiled with the `RAYLIB_OPENGL_43` flag enabled. To use these binaries, head to your Workspace properties and choose any of the `*_GL43` build configurations under `Targeted` > `Projects` > `raylib-beef`:
 
-TODO: insert screenshot here!
+<img width="1132" height="931" alt="image" src="https://github.com/user-attachments/assets/aa9e560a-312a-4ab0-a6ed-3f64a405fd62" />
 
 ## More Links
 * Raylib Repo (https://github.com/raysan5/raylib)
