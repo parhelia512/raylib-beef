@@ -80,6 +80,8 @@ raylib-beef provides binaries that have been compiled with the `RAYLIB_OPENGL_43
 
 <img width="1132" height="931" alt="image" src="https://github.com/user-attachments/assets/aa9e560a-312a-4ab0-a6ed-3f64a405fd62" />
 
+Note that OpenGL 4.3 support is currently only available for Windows.
+
 ## More Links
 * Raylib Repo (https://github.com/raysan5/raylib)
 * BeefLang (https://www.beeflang.org)
