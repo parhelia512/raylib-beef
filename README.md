@@ -68,6 +68,17 @@ On Windows, default linking is set to dynamically link to raylib. This is becaus
 
 ![image](https://github.com/Starpelly/raylib-beef/assets/24588691/d78c5e3f-62ac-4927-89c2-7e73b1262ed7)
 
+## How to Enable OpenGL 4.3 Support
+To make use of modern OpenGL features such as compute shaders and Shader Storage Buffer Objects, raylib needs to be compiled with the `RAYLIB_OPENGL_43` flag enabled.
+By default, this flag is disabled and any attempt to use OpenGL 4.3 features will result in runtime errors that look like this:
+```
+WARNING: SHADER: Compute shaders not enabled. Define GRAPHICS_API_OPENGL_43
+WARNING: SSBO: SSBO not enabled. Define GRAPHICS_API_OPENGL_43
+```
+
+raylib-beef provides binaries that have been compiled with the `RAYLIB_OPENGL_43` flag enabled. To use these binaries, head to your Workspace properties and choose any of the `*_GL43` build configurations under `Targeted` > `Projects` > `raylib-beef`:
+
+TODO: insert screenshot here!
 
 ## More Links
 * Raylib Repo (https://github.com/raysan5/raylib)
