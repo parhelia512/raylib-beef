@@ -86,15 +86,3 @@ PostBuildCmds = ["CopyToDependents(\"$(ProjectDir)/libs/libs_x64_gl43/*.dll\")"]
 [Configs.Test_GL43.Win64]
 LibPaths = ["$(ProjectDir)\\libs\\libs_x64_gl43\\raylibdll.lib"]
 PostBuildCmds = ["CopyToDependents(\"$(ProjectDir)/libs/libs_x64_gl43/*.dll\")"]
-
-[Configs.StaticDebug_GL43.Win64]
-OtherLinkFlags = "$(LinkFlags) -libpath:\"$(ProjectDir)/libs/libs_x64_gl43\""
-LibPaths = ["$(ProjectDir)\\libs\\libs_x64_gl43\\staticraylib.lib", "user32.lib", "gdi32.lib", "windowsapp.lib", "shell32.lib"]
-
-[Configs.StaticRelease_GL43.Win64]
-OtherLinkFlags = "$(LinkFlags) -libpath:\"$(ProjectDir)/libs/libs_x64_gl43\""
-LibPaths = ["$(ProjectDir)\\libs\\libs_x64_gl43\\staticraylib.lib", "user32.lib", "gdi32.lib", "windowsapp.lib", "shell32.lib"]
-
-[Configs.StaticTest_GL43.Win64]
-OtherLinkFlags = "$(LinkFlags) -libpath:\"$(ProjectDir)/libs/libs_x64_gl43\""
-LibPaths = ["$(ProjectDir)\\libs\\libs_x64_gl43\\staticraylib.lib", "user32.lib", "gdi32.lib", "windowsapp.lib", "shell32.lib"]
